@@ -35,7 +35,7 @@ namespace GuessTheNumber
                 }
                 else if (userInput < randomNumber)
                 {
-                    Console.WriteLine("Your number is too low");
+                    Console.WriteLine("Your number is too low.");
                     numberOfGuess ++;
                 }
 
